@@ -12,7 +12,7 @@ PRODUCTS = {
         "Headphones": (1999, "🎧"),
         "Webcam": (1499, "📷"),
         "Bluetooth Speaker": (1799, "🔊"),
-        "Power Bank 20000mAh": (1599, "🔋"),
+        "Power Bank": (1599, "🔋"),
         "Smartwatch": (3499, "⌚"),
     },
     "Accessories": {
@@ -24,11 +24,11 @@ PRODUCTS = {
         "Cable Organizer": (199, "🧵"),
     },
     "Stationery": {
-        "Spiral Notebook (Pack of 3)": (249, "📓"),
-        "Gel Pens (Pack of 10)": (150, "🖊️"),
+        "Spiral Notebook": (249, "📓"),
+        "Gel Pens": (150, "🖊️"),
         "Sticky Notes Set": (120, "🗒️"),
         "Desk Organizer": (449, "🗄️"),
-        "Highlighters (Set of 6)": (180, "🖍️"),
+        "Highlighters": (180, "🖍️"),
     },
     "Home & Study": {
         "LED Desk Lamp": (799, "💡"),
