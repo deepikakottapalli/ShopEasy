@@ -2,6 +2,8 @@
 
 A Streamlit-based shopping and billing app. Browse products by category, search, add items to a cart, apply coupon codes, and check out with GST-inclusive invoicing — generating downloadable TXT and PDF receipts.
 
+🔗 **Live app:** [deepikakottapalli-shopeasy-main-zmer5k.streamlit.app](https://deepikakottapalli-shopeasy-main-zmer5k.streamlit.app)
+
 ## Features
 
 - **Product catalog** — organized by category (Electronics, Accessories, Stationery, Home & Study), with images, emoji fallbacks, and randomized star ratings
@@ -81,8 +83,11 @@ Drop an image into `assets/` named after the product, slugified (lowercase, spac
 - Generated receipts are stored in `receipts/` locally and are git-ignored (only `.gitkeep` is tracked) so real transaction data isn't committed to the repo.
 - Coupon codes and GST rate are defined in `billing.py` and can be extended there.
 
-## Roadmap
+## Development & deployment steps
 
-- [ ] Dockerize the app for consistent deployment
-- [ ] Add CI (lint/test) via GitHub Actions
-- [ ] Deploy to Streamlit Community Cloud / a cloud provider
+- Built the product catalog, cart, coupon, and GST billing logic
+- Fixed rendering bugs in the product grid (indentation issues causing missing product details and repeated images)
+- Generated downloadable TXT and PDF receipts using ReportLab
+- Configured app theming via `.streamlit/config.toml`
+- Pushed the project to GitHub with a `.gitignore` excluding `venv/`, `__pycache__/`, and generated receipts
+- Deployed the app to Streamlit Community Cloud, connected directly to this repository
